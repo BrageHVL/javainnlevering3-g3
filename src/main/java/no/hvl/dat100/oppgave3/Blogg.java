@@ -5,7 +5,9 @@ import no.hvl.dat100.oppgave1.*;
 
 public class Blogg {
 
-	// TODO: objektvariable 
+	// TODO: objektvariable
+	Innlegg innleggtabell[] = new Innlegg[];
+	int nesteLedige;
 
 	public Blogg() {
 		throw new UnsupportedOperationException(TODO.constructor("Blogg"));
